@@ -1,4 +1,5 @@
 ruby word_test.rb
+
 rspec word_test_spec.rb
 
 Outputs sequences for words in dictionary.txt file.
@@ -12,13 +13,22 @@ me
 
 The outputs should be:
 
-'sequences'             'words'
+'sequences'             
 
-carr                    carrots
-give                    give
-rots                    carrots
-rows                    arrows
-rrot                    carrots
-rrow                    arrows
+carr                    
+give                    
+rots                    
+rows                    
+rrot                    
+rrow                    
+
+'words'
+
+carrots
+give
+carrots
+arrows
+carrots
+arrows
 
 Of course, 'arro' does not appear in the output, since it is found in more than one word.
